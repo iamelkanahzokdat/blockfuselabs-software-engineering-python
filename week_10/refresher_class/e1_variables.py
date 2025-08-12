@@ -79,3 +79,9 @@ d = (1/2)
 e = (1//2)
 print(d, type(d))
 print(e, type(e))
+
+
+f = True
+g = 1.0
+h = True + 1.0
+print(h)
