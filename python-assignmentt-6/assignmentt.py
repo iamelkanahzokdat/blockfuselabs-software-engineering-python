@@ -596,7 +596,7 @@ def task3_greet_user(name):
     """Accepts a name and prints a greeting."""
     print("Hello,", name + "!")
 
-task3_greet_user("John")
+task3_greet_user("Elkanah")
 
 
 # 4
