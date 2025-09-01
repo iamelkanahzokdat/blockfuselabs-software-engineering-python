@@ -27,3 +27,14 @@ lets_go_home = sum(9,1)
 print("print is outside fn:", result)
 print("print is outside fn:", another)
 print("print is outside fn:", lets_go_home)
+
+
+res = greet("Akamu")
+print(res)
+
+def greet2(name):
+    return f"Welcome onboard {name}. Good Afternoon"
+res2 = greet2
+print(res2)
+
+
