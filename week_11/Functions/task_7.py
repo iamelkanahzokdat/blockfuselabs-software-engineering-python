@@ -12,7 +12,7 @@ Example:
     update_todo_list(todos, "Wash dishes", "Read book", Read_book="completed")
 
 """
-
+todos = {}
 def update_todo_list(todo_list, *new_tasks, **status_updates):
     todo_list.update({task: "pending" for task in new_tasks})
     todo_list.update(status_updates)
@@ -22,3 +22,5 @@ todos = {}
 update_todo_list(todos, "Wash dishes", "Read book", Read_book="completed")
 print(todos)
 print(todos['Read_book']) 
+
+

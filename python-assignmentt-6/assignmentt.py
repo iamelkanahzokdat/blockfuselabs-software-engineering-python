@@ -279,9 +279,9 @@ def task25_scope_counter():
     pass
 
 
-# ================================
-# ADDITIONAL 25 FUNCTION TASKS
-# ================================
+@ ================================
+ ADDITIONAL 25 FUNCTION TASKS
+ ================================
 
 # 26
 def task26_calculate_bmi(weight, height):
